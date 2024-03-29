@@ -1,0 +1,43 @@
+Circuit: * C:\Users\DELL\OneDrive\Documente\LTspiceXVII\etaj3_.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:2      d:u1:8      d:u1:1      d:u1:7      d:u1:4
+Model:    u1:bb      u1:ed2       u1:aa      u1:bias     u1:bias
+Id:      6.81e-17    5.35e-19    1.70e-06    1.70e-06    1.70e-06
+Vd:      6.80e-05    5.35e-07    6.80e-05    5.00e+00    5.00e+00
+Req:     1.00e-12    1.00e-12    2.50e-02    2.00e-05    2.00e-05
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:3      d:u1:6      d:u1:5      d:u1:22     d:u1:21
+Model:    u1:iq       u1:x1       u1:x1      u1:esd      u1:esd
+Id:      1.25e-03   -4.95e-05   -5.05e-05   -5.01e-12   -5.00e-12
+Vd:      1.00e+01   -4.95e+00   -5.05e+00   -5.00e+00   -5.00e+00
+Req:     1.00e-03    1.00e-05    1.00e-05    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+Note: .fourier statements are only valid with a .tran command.
+      No Fourier analysis performed.
+
+
+rin: rintrare()=(73.9799dB,-180°) at 0.01
+
+
+Date: Fri Jan 12 13:39:45 2024
+Total elapsed time: 0.110 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 7
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 30
+fillins = 8
+solver = Normal
+Matrix Compiler1:     104 opcodes
+Matrix Compiler2: 2.43 KB object code size
